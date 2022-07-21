@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0px;
+
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:3.5rem;
+    line-height:1.5;
+    font-weight: bolder;
+
+}
+
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+    font-weight: bolder;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+.fa-brands .fa-google-play{
+    margin-right:10px;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding:0px 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    /* font-family:"Montserrat-Light"; */
+}
+
+.download-btn{
+    margin:5% 3% 5% 0%;
+}
+
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 22%;
+}
+
+#features{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.icon{
+    margin-bottom: 20px;
+    color:#ef8172;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+.feature-box{
+    padding:5%;
+}
+
+/* Testimonials Section */
+#testimonials{
+
+    background-color: #ef8172;
+    text-align:center;
+    color:#fff;
+}
+
+.testimonial-image{
+    border-radius: 50%;
+    width:10%;
+    margin:20px; 
+}
+
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.caro{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align:center;
+    font-family: 'Montserrat';
+}
+
+.btn-signup-outline{
+    border-color: #ef8172;
+    color: #ef8172;
+}
+
+.btn-signup-outline:hover{
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.btn-signup{
+    background-color: #ef8172;
+    border:none;
+}
+
+.btn-signup:hover{
+    background-color:#ff4c68;
+    border:none;
+}
+
+.change-border{
+    border:none;
+    background-color:#ef8172;
+}
+
+.pushdown{
+    margin-bottom: 50px;
+}
+
+#cta{
+    padding: 7% 15%;
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+#cta h3{
+    font-family: 'Montserrat';
+    color:#fff;
+    font-size: 3rem;
+    margin-bottom:40px;
+}
+
+.social-icons{
+    margin:10px;
+}
+
+
+#footer{
+    padding: 3% 15% 0% 15%;
+    text-align: center;
+}
+
+@media (max-width:1036px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        width: 60%;
+        position: static;
+        transform:rotate(0);
+    }
+}
